@@ -5,7 +5,7 @@ Proyecto práctico para la aplicación de un patrón Modelo-Vista-Controller (MV
 ## Integrantes del Grupo
 * **Alexander Rafael Infante Salas** - Entidad: `Estudiante`
 * **Eliecer Mateo Mogollón Ortiz** - Entidad: `Maestro`
-* **Carmen Violeta Tapia Sotamba ** - Entidad: `Aula`
+* **Carmen Violeta Tapia Sotamba** - Entidad: `Aula`
 * **Jannina Viviana Puga Monserrate** - Entidad: `Libro`
 
 ## Pasos para Ejecutar el Proyecto Localmente
