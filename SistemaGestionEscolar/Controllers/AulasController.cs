@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SistemaGestionEscolar.Data;
 using SistemaGestionEscolar.Models;
 
 namespace SistemaGestionEscolar.Controllers
