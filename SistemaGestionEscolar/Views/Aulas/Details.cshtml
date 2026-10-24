@@ -1,0 +1,28 @@
+@model SistemaGestionEscolar.Models.Aula
+
+@{
+    ViewData["Title"] = "Detalles de Aula";
+}
+
+<h1>Detalles de Aula</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Numero)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Numero)</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Capacidad)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Capacidad)</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Edificio)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Edificio)</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Piso)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Piso)</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Volver al listado</a>
+</div>
