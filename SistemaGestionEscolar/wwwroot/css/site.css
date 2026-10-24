@@ -19,6 +19,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  
+    background-color: #a8d8b9;
+    background-image: linear-gradient(180deg, #c6e8d2 0%, #86c49d 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
